@@ -240,13 +240,16 @@
   }
 }
 @media (max-width: 320px) {
-  .main_contacto {
-    padding: 3px;
-    margin: 70px;
-  }
-  .main_form {
+  .main {
     padding: 0px;
-    margin: 105px;
+  }
+  .main_contacto {
+    padding: 0px;
+    margin: 0px;
+  }
+  .main .main_form {
+    padding: 10px;
+    margin: 10px;
   }
 }
 @media (max-width: 768px) {
@@ -271,7 +274,7 @@
 }
 @media (max-width: 320px) {
   .main_section {
-    padding: 82px;
+    padding: 0px;
   }
 }
 @media (max-width: 768px) {
@@ -281,7 +284,8 @@
 }
 @media (max-width: 1024px) {
   .main_section {
-    padding: 82px;
+    padding: 0px;
+    text-align: left;
   }
 }
 @media (max-width: 768px) {

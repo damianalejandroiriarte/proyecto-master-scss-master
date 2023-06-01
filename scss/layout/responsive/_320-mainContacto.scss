@@ -1,11 +1,16 @@
 @media(max-width:320px){
-    .main_contacto{
-        padding: 3px;
-        margin: 70px;
+    .main{
+        padding: 0px;
+
+    
+    &_contacto{
+        padding: 0px;
+        margin: 0px;
     }
 
     .main_form{
-        padding: 0px;
-        margin: 105px;
+        padding: 10px;
+        margin: 10px;
     }
     }
+}
